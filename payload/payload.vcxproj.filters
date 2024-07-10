@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="divert">
+      <UniqueIdentifier>{2fb89629-3fd5-4188-ad11-7e1671002bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{3c4bc8f4-3342-4aac-9d02-21ab2eca8a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\header">
+      <UniqueIdentifier>{86114cdc-53bd-48b4-b427-075995548621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\source">
+      <UniqueIdentifier>{744f221b-f33b-4d6e-bd1b-88947abd7088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\source\browser">
+      <UniqueIdentifier>{8b84e175-667a-48e5-97db-1af861704c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\source\browser\filters">
+      <UniqueIdentifier>{33156601-c7d4-489e-a750-72216e5d3da1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="exports.def">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="divert\divert.cc">
+      <Filter>divert</Filter>
+    </ClCompile>
+    <ClCompile Include="divert\helper.cc">
+      <Filter>divert</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cc">
+      <Filter>src\source</Filter>
+    </ClCompile>
+    <ClCompile Include="dllproxy.cc">
+      <Filter>src\source</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\filter.cc">
+      <Filter>src\source\browser</Filter>
+    </ClCompile>
+    <ClCompile Include="browser\browser.cc">
+      <Filter>src\source\browser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="divert\divert.h">
+      <Filter>divert</Filter>
+    </ClInclude>
+    <ClInclude Include="divert\helper.h">
+      <Filter>divert</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="browser\filters\teamEloFilter.h">
+      <Filter>src\source\browser\filters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

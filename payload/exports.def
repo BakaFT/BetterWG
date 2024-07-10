@@ -1,0 +1,4 @@
+LIBRARY payload
+EXPORTS
+	DllMain
+	DWriteCreateFactory
