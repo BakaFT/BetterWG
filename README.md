@@ -1,3 +1,6 @@
+**喜报，腾讯已经将`teamElo`字段去除，功能不再有效。仓库不会删除，可能会基于原来的代码Base做一些其他功能**(2024/7/12)
+
+
 # BetterWG
 
 通过 [黑魔法](./HOW_IT_WORKS.md) 让你的 WeGame 显示 团队ELO（TeamELO）数据
